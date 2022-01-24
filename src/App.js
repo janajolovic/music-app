@@ -9,7 +9,6 @@ function App() {
     {
       song_name: "Heathens",
       artist: "Twenty One Pilots",
-      img: "./images/download.jpg"
     }
   ])
   return (
