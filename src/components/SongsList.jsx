@@ -5,7 +5,7 @@ const SongsList = ({songs}) => {
   return <div>
     {songs.map((song, i) => {
       return (
-      <Card song={song} key={i}/>
+      <Card song={song} key={i} id={i}/>
     )})}
     </div>;
 };

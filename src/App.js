@@ -14,31 +14,20 @@ function App() {
       artist: "Twenty One Pilots",
     },
     {
-      song_name: "Heathens",
+      song_name: "Stressed out",
       artist: "Twenty One Pilots",
     },
     {
-      song_name: "Heathens",
+      song_name: "Doubt",
       artist: "Twenty One Pilots",
     },
-    {
-      song_name: "Heathens",
-      artist: "Twenty One Pilots",
-    },
-    {
-      song_name: "Heathens",
-      artist: "Twenty One Pilots",
-    },
-    {
-      song_name: "Heathens",
-      artist: "Twenty One Pilots",
-    }
   ])
+
   return (
     <div className="app">
       <Routes>
         <Route path="/" element={<SongsList songs={songs}/>}></Route>
-        <Route path="/song" element={<Song />}></Route>
+        <Route path="/song/:name" element={<Song songs={songs}/>}></Route>
       </Routes>
     </div>
   );

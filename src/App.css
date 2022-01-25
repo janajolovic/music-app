@@ -48,12 +48,35 @@ body {
   margin: 0 20px;
 }
 
-.card button {
-  position: absolute;
-  right: 20px;
+.card button, .play button {
   border: none;
   font-size: 40px;
   background-color: transparent;
   outline: none;
   color: white;
+}
+
+.card button {
+  right: 20px;
+  position: absolute;
+}
+.play button {
+  margin-top: 20px;
+}
+.song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.song img{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.song h1, p {
+  margin-top: 5px;
 }
