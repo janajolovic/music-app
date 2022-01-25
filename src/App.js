@@ -20,6 +20,18 @@ function App() {
     {
       song_name: "Heathens",
       artist: "Twenty One Pilots",
+    },
+    {
+      song_name: "Heathens",
+      artist: "Twenty One Pilots",
+    },
+    {
+      song_name: "Heathens",
+      artist: "Twenty One Pilots",
+    },
+    {
+      song_name: "Heathens",
+      artist: "Twenty One Pilots",
     }
   ])
   return (

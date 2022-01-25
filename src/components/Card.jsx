@@ -8,7 +8,7 @@ const Card = ({song}) => {
         <h1>{song.song_name}</h1>
         <p>{song.artist}</p>
     </div>
-    <button><Link to="/song" style={{ color: '#FFF' }}><i className="fas fa-play"></i></Link></button>
+    <button><Link to="/song" style={{ color: '#FFF' }} song={song}><i className="fas fa-play"></i></Link></button>
   </div>;
 };
 
