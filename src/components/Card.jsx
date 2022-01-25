@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({song}) => {
   return <div className='card'>
@@ -7,7 +8,7 @@ const Card = ({song}) => {
         <h1>{song.song_name}</h1>
         <p>{song.artist}</p>
     </div>
-    <button><i className="fas fa-play"></i></button>
+    <button><Link to="/song" style={{ color: '#FFF' }}><i className="fas fa-play"></i></Link></button>
   </div>;
 };
 

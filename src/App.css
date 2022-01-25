@@ -1,28 +1,37 @@
 body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
   background: url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") rgba(21, 22, 24, 0.802);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: 100%;
-  width: 100%;
+  width: 50%;
 }
 
 .app {
-  width: 100%;
   display: flex;
   color: white;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  width: 50%;
   position: relative;
   height: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 10px 0px;
-  /* border-bottom: 1px solid gray; */
+  border-bottom: 1px solid gray;
 }
 
 .card:hover {
